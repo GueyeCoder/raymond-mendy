@@ -22,3 +22,5 @@ public/uploads/
 # Logs
 *.log
 npm-debug.log*
+.neon
+.vercel
