@@ -92,7 +92,7 @@ export default async function HomePage() {
               }}
             >
               <Image
-                src="/karen-cathy-coly.jpeg"
+                src="/raymond-mendy.jpeg"
                 alt="Commissaire Karen Atenance Cathy Coly"
                 fill
                 style={{ objectFit: 'cover', objectPosition: 'center top' }}
