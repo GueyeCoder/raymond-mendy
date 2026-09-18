@@ -104,7 +104,7 @@ export default function TemoignagesPage() {
             }}
           >
             Partagez vos souvenirs, vos pensées et vos témoignages d&apos;amour
-            pour Commissaire Karen Atenance Cathy Coly.
+            pour Raymond MENDY.
           </p>
         </div>
 

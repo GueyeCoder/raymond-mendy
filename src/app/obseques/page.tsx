@@ -49,7 +49,7 @@ export default async function ObsequesPage() {
               lineHeight: 1.65,
             }}
           >
-            Commissaire Karen Atenance Cathy Coly
+            Raymond MENDY
           </p>
         </div>
 
@@ -431,7 +431,7 @@ export default async function ObsequesPage() {
               textTransform: 'uppercase',
             }}
           >
-            La famille Coly
+            La famille Mendy
           </p>
         </div>
       </div>

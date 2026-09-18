@@ -45,7 +45,7 @@ export default function Navigation() {
           <span style={{ fontSize: '0.65rem', color: 'var(--text-secondary)', display: 'block', letterSpacing: '0.15em', textTransform: 'uppercase', fontFamily: 'Inter, sans-serif', marginBottom: '2px' }}>
             À la mémoire de
           </span>
-          Karen Cathy Coly
+          Raymond MENDY
         </Link>
 
         {/* Desktop Links */}

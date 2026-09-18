@@ -93,7 +93,7 @@ export default async function HomePage() {
             >
               <Image
                 src="/raymond-mendy.jpeg"
-                alt="Commissaire Karen Atenance Cathy Coly"
+                alt="Raymond MENDY"
                 fill
                 style={{ objectFit: 'cover', objectPosition: 'center top' }}
                 priority
@@ -115,7 +115,7 @@ export default async function HomePage() {
               opacity: 0,
             }}
           >
-            Commissaire Karen Atenance Cathy Coly
+            Raymond MENDY
           </h1>
 
           {/* Dates */}

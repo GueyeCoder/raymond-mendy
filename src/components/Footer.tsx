@@ -26,7 +26,7 @@ export default function Footer() {
             letterSpacing: '0.04em',
           }}
         >
-          Commissaire Karen Atenance Cathy Coly
+          Raymond MENDY
         </p>
 
         {/* Dates */}
@@ -103,7 +103,7 @@ export default function Footer() {
             opacity: 0.6,
           }}
         >
-          Site mémoriel dédié à la mémoire de Commissaire Karen Atenance Cathy Coly.
+          Site mémoriel dédié à la mémoire de Raymond MENDY.
           <br />
           Créé avec amour et respect par sa famille et ses proches.
         </p>

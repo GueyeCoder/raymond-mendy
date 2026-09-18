@@ -156,7 +156,7 @@ export default function AllumerPage() {
               margin: '0 auto',
             }}
           >
-            Offrez une flamme de lumière en mémoire de Commissaire Karen Atenance Cathy Coly.
+            Offrez une flamme de lumière en mémoire de Raymond MENDY.
           </p>
         </div>
 

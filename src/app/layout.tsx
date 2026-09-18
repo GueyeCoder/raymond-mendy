@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Site mémoriel dédié à Raymond Mendy (10 octobre 1975,  Ziguinchor – 14 septembre 2026, Dakar). Allumez une bougie, partagez vos souvenirs.',
   openGraph: {
-    title: 'À la mémoire de Commissaire Karen Atenance Cathy Coly',
+    title: 'À la mémoire de Raymond MENDY',
     description: 'Une vie, des souvenirs, une lumière qui demeure.',
     type: 'website',
   },
