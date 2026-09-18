@@ -24,3 +24,4 @@ public/uploads/
 npm-debug.log*
 .neon
 .vercel
+.env*

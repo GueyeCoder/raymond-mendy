@@ -12,6 +12,12 @@ const nextConfig: NextConfig = {
       { pathname: '/*.png' },
       { pathname: '/*.webp' },
     ],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.public.blob.vercel-storage.com',
+      },
+    ],
   },
 }
 
