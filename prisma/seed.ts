@@ -23,7 +23,7 @@ async function main() {
   if (!funeralInfo) {
     await prisma.funeralInfo.create({
       data: {
-        date: 'Vendredi 11 septembre 2026',
+        date: 'Vendredi 20 septembre 2026',
         time: '10h00',
         venue: 'Cathédrale de Ziguinchor',
         address: 'Place de la Cathédrale, Ziguinchor, Sénégal',

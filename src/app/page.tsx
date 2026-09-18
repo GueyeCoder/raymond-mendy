@@ -131,7 +131,7 @@ export default async function HomePage() {
               opacity: 0,
             }}
           >
-            29 août 1984, Dakar &nbsp;—&nbsp; 5 septembre 2026, Ziguinchor
+            10 octobre 1975, Ziguinchor &nbsp;—&nbsp; 14 septembre 2026, Dakar
           </p>
 
           {/* Gold divider */}

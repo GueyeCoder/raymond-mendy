@@ -40,7 +40,7 @@ export default function Footer() {
             marginBottom: '1.5rem',
           }}
         >
-          29 août 1984 — 5 septembre 2026
+          10 octobre 1975 — 14 septembre 2026
         </p>
 
         {/* Quote */}

@@ -884,7 +884,7 @@ export default function AdminDashboardPage() {
                     type="text"
                     name="date"
                     defaultValue={funeralInfo?.date || ''}
-                    placeholder="Vendredi 11 septembre 2026"
+                    placeholder="Vendredi 20 septembre 2026"
                     required
                     className="memorial-input"
                   />
