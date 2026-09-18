@@ -206,23 +206,51 @@ export default function AdminDashboardPage() {
     const form = e.currentTarget
     const formData = new FormData(form)
 
-    if (uploadMode === 'file') {
-      if (!selectedFile) {
-        setGalleryError('Veuillez sélectionner une image.')
-        return
-      }
-      setUploading(true)
-      try {
-        const uploadData = new FormData()
-        uploadData.append('file', selectedFile)
-        const res = await fetch('/api/admin/upload', { method: 'POST', body: uploadData })
-        const json = await res.json()
-        if (!res.ok) { setGalleryError(json.error || 'Erreur upload'); return }
-        formData.set('url', json.url)
-      } finally {
-        setUploading(false)
-      }
+if (uploadMode === 'file') {
+  if (!selectedFile) {
+    setGalleryError('Veuillez sélectionner une image.')
+    return
+  }
+
+  setUploading(true)
+
+  try {
+    const uploadData = new FormData()
+    uploadData.append('file', selectedFile)
+
+    const res = await fetch('/api/admin/upload', {
+      method: 'POST',
+      body: uploadData,
+    })
+
+    const text = await res.text()
+
+    let json: { url?: string; error?: string } = {}
+
+    try {
+      json = JSON.parse(text)
+    } catch {
+      setGalleryError(
+        `Erreur serveur (${res.status}). Réponse: ${text.slice(0, 200)}`
+      )
+      return
     }
+
+    if (!res.ok) {
+      setGalleryError(json.error || 'Erreur upload')
+      return
+    }
+
+    if (!json.url) {
+      setGalleryError("L'upload a réussi mais aucune URL n'a été retournée.")
+      return
+    }
+
+    formData.set('url', json.url)
+  } finally {
+    setUploading(false)
+  }
+}
 
     const result = await addGalleryImage(formData)
     if (result?.error) {

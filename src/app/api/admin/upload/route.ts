@@ -33,7 +33,7 @@ export async function POST(request: NextRequest) {
   }
 
   const blob = await put(`gallery/${Date.now()}-${file.name}`, file, {
-    access: 'private',
+    access: 'public',
   })
 
   return NextResponse.json({ url: blob.url })
