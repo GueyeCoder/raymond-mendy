@@ -72,7 +72,7 @@ export default function AdminLoginPage() {
               fontWeight: 300,
             }}
           >
-            À la mémoire de Karen
+            À la mémoire de Raymond
           </h1>
         </div>
 

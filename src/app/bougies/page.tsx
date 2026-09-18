@@ -95,7 +95,7 @@ export default function BougiesPage() {
               lineHeight: 1.65,
             }}
           >
-            Chaque flamme est un amour, une pensée, un souvenir offert à Karen.
+            Chaque flamme est un amour, une pensée, un souvenir offert à Raymond.
           </p>
         </div>
 
@@ -227,7 +227,7 @@ export default function BougiesPage() {
                     marginBottom: '2rem',
                   }}
                 >
-                  Soyez la première personne à offrir une flamme à Karen.
+                  Soyez la première personne à offrir une flamme à Raymond.
                 </p>
                 <Link href="/allumer">
                   <button className="btn-gold">🕯️ Allumer la première bougie</button>

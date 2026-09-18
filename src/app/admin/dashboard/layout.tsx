@@ -51,7 +51,7 @@ export default async function AdminDashboardLayout({
               color: 'var(--gold)',
             }}
           >
-            À la mémoire de Karen
+            À la mémoire de Raymond
           </p>
         </div>
 

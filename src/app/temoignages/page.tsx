@@ -204,7 +204,7 @@ export default function TemoignagesPage() {
                     opacity: 0.85,
                   }}
                 >
-                  Lien avec Karen <span style={{ color: '#f87171' }}>*</span>
+                  Lien avec Raymond <span style={{ color: '#f87171' }}>*</span>
                 </label>
                 <select name="relation" required className="memorial-select">
                   <option value="">— Choisir —</option>
@@ -234,7 +234,7 @@ export default function TemoignagesPage() {
                 </label>
                 <textarea
                   name="message"
-                  placeholder="Partagez vos souvenirs, vos mots d'amour, vos pensées pour Karen…"
+                  placeholder="Partagez vos souvenirs, vos mots d'amour, vos pensées pour Raymond…"
                   maxLength={2000}
                   rows={6}
                   required

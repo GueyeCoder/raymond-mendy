@@ -86,7 +86,7 @@ export default function GaleriePage() {
               lineHeight: 1.65,
             }}
           >
-            Les images qui immortalisent la vie, les sourires et la lumière de Karen.
+            Les images qui immortalisent la vie, les sourires et la lumière de Raymond.
           </p>
         </div>
 
@@ -208,7 +208,7 @@ export default function GaleriePage() {
                 <div style={{ position: 'relative', aspectRatio: '4/3' }}>
                   <Image
                     src={img.url}
-                    alt={img.caption || 'Photo de Karen'}
+                    alt={img.caption || 'Photo de Raymond'}
                     fill
                     style={{ objectFit: 'cover' }}
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -312,7 +312,7 @@ export default function GaleriePage() {
             >
               <Image
                 src={lightbox.url}
-                alt={lightbox.caption || 'Photo de Karen'}
+                alt={lightbox.caption || 'Photo de Raymond'}
                 width={1200}
                 height={800}
                 style={{

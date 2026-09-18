@@ -290,7 +290,7 @@ export default async function HomePage() {
                 href: '/temoignages',
                 icon: '📖',
                 title: 'Livre de témoignages',
-                desc: 'Partagez vos souvenirs, vos mots et votre amour pour Karen.',
+                desc: 'Partagez vos souvenirs, vos mots et votre amour pour Raymond.',
               },
               {
                 href: '/bougies',

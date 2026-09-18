@@ -98,7 +98,7 @@ export default function AllumerPage() {
             }}
           >
             Merci, {submittedName}. Votre lumière rejoint celles de tous ceux qui
-            gardent Karen dans leur cœur.
+            gardent Raymond dans leur cœur.
           </p>
 
           <p
@@ -293,7 +293,7 @@ export default function AllumerPage() {
           }}
         >
           Votre bougie sera visible sur le mur des bougies et restera allumée à jamais
-          en mémoire de Karen.
+          en mémoire de Raymond.
         </p>
       </div>
     </div>
